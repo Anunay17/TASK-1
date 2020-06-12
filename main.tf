@@ -237,11 +237,4 @@ resource "aws_cloudfront_distribution" "cloudfront" {
 
 output "Instance-Public-IP" {
 	value = aws_instance.MyWebServer.public_ip
-}	
-
-
-				
-
-
-
-
+}
